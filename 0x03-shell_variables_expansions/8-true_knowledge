@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($TRURKNOWLEDGE+128))
+printf "$(($TRUEKNOWLEDGE + 128))\n"

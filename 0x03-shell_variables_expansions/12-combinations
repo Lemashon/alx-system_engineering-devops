@@ -1,2 +1,3 @@
 #!/bin/bash
-paste -d, - - | cut -d, -f1
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v Ôo
+
